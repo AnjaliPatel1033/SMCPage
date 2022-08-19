@@ -1,0 +1,44 @@
+.aboutBrts{
+    span{
+        display: inline-block;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color:$priymary-color;
+        margin-bottom: 1rem;
+        font-weight: map-get($map: $font-weights, $key:'bold' );
+    }
+    .content{
+        line-height:22px;
+        font-size: 15px;
+    }
+    img{
+        box-shadow: 0 0 10px 10px rgba(0,0,0,0.03);
+    }
+   
+        .bull{
+            line-height: 2;
+        }
+
+        .cost{
+            background-color:  rgba(58, 123, 183, 0.1);
+            color: $priymary-color;
+            font-weight: map-get($map: $font-weights, $key:'bold' );
+            font-size: 1rem;
+            border-radius:8px;
+        }
+        .title{
+            h5{
+                color: $priymary-color;
+                font-weight: map-get($map: $font-weights, $key:'bold' );
+            }
+        }
+        .box{
+            background:rgba(233, 233, 233, 0.5);
+            border-radius: 8px;
+            a{
+                text-decoration: none;
+                color: $priymary-color;
+            }
+        }
+   
+}

@@ -1,0 +1,53 @@
+.faqs{
+    .faqsBlock{
+        box-shadow:0 0 10px 10px rgba(0,0,0,0.03);
+        border-radius: 10px;
+        background-color: $white;
+    }
+    .title{
+        h4{
+            color: $priymary-color;
+            font-weight: map-get($map: $font-weights, $key:'bold' );
+            padding:2rem;
+            margin-bottom: 0;
+            @media only screen and (max-width: 500px){
+                padding:  1rem;
+            }
+        }
+    }
+    .card{
+        border: 0;
+        .card-header{
+            min-height: 100px;
+            background-color: $white;
+            @media only screen and (max-width: 500px){
+                padding: 0.75rem 0.3rem;
+            }
+        }
+        .card-body{
+            border-bottom: 1px solid $gray;
+            background-color: #d8d6d61c;
+            p{
+                line-height:1.5;
+            }
+        }
+        a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p{
+            white-space: normal;
+            text-align: left;
+        }
+       .bull{
+           line-height: 2;
+       }
+        .fa-chevron-up {
+            transition: all 0.3s ease;
+         }
+        .btn-link.collapsed .fa-chevron-up {
+          transform: rotate(180deg);
+        }
+    }
+}

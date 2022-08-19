@@ -1,0 +1,50 @@
+.image-gallary{
+   
+   a{
+       display: block;
+       position: relative;
+       //text-decoration: none;
+       color: $white;
+       &:hover{
+           h5{
+               text-decoration: underline;
+           }
+       }
+   }
+    .overlay{
+        // position: absolute;
+        // bottom: 0;
+        //background-color:rgba(0,0,0,0.8);
+        border-bottom-left-radius: 0.25rem;
+        border-bottom-right-radius: 0.2rem;
+        width: 100%;
+        color: $black;
+        h5{
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-weight: map-get($map: $font-weights, $key:bold );
+        }
+        span{
+            float: right;
+            font-size: 0.8rem;
+        }
+    }
+   
+}
+.lg-sub-html{
+    padding:10px;
+    h4{
+        font-size: 1rem;
+        @media only screen and (min-width:491px){
+            font-size: 1.2rem;
+        }
+    }
+    p{
+        margin: 0.25rem 0;
+    }
+    span{
+        font-size: 1rem;
+        //font-weight: map-get($map: $font-weights, $key:bold );
+    }
+   
+}

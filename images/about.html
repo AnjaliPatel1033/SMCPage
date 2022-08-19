@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="owlcarsouel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarsouel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="fullscreenMenu desktop">
+        <div class="container">
+            <div class="close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="online-grp d-flex justify-content-between flex-wrap mb-1 mr-lg-0 mr-sm-0 mr-4">
+                <div class="social-icons d-flex mb-3">
+                    <div class="icon  d-flex justify-content-center align-items-center">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="icon  d-flex justify-content-center align-items-center">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="icon  d-flex justify-content-center align-items-center">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="icon d-flex justify-content-center align-items-center">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="dropgroup d-flex">
+                    <div class="dropdown">
+                        <button class="app online px-3 py-2 " type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            mobile app<i class="fas fa-plus arrow-plus ml-3"></i>
+                        </button>
+                        <div class="dropdown-menu app" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Citizen’s Connect – SMC App</a>
+                            <a class="dropdown-item" href="#">SAFAL</a>
+                            <a class="dropdown-item" href="#">Heritage Walk</a>
+                            <a class="dropdown-item" href="#">Surat Sitilink</a>
+                            <a class="dropdown-item" href="#">Surat Smart City</a>
+                        </div>
+                    </div>
+                    <div class="dropdown  ml-3 mr-2 services">
+                        <a class=" btn px-3 py-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            online services<i class="fas fa-plus arrow-plus ml-3"></i>
+                        </a>
+                        <div class="dropdown-menu app  px-3 py-4" aria-labelledby="dropdownMenuButton">
+                            <span class="mb-2">Property tax</span>
+                            <a class="dropdown-item" href="#">Property tax</a>
+                            <a class="dropdown-item" href="#">Professional tax rc</a>
+                            <a class="dropdown-item" href="#">professional tax ec</a>
+                            <span>Get Certificate</span>
+                            <a class="dropdown-item" href="#">Shops & Est. Certi. Registation</a>
+                            <a class="dropdown-item" href="#">Birth Certificate</a>
+                            <a class="dropdown-item" href="#">Death Certificate</a>
+                            <span>Booking</span>
+                            <a class="dropdown-item" href="#">Hall/Auditorium booking</a>
+                            <a class="dropdown-item" href="#">Community hall/party plot booking</a>
+                            <a class="dropdown-item" href="#">indoor stadium booking</a>
+                            <a class="dropdown-item" href="#">ticket booking</a>
+                            <span>Membership</span>
+                            <a class="dropdown-item" href="#">E-libary</a>
+                            <a class="dropdown-item" href="#">swimming</a>
+                            <span>other services</span>
+                            <a class="dropdown-item" href="#">Complaint</a>
+                            <a class="dropdown-item" href="#">Water meter</a>
+                            <a class="dropdown-item" href="#">Hydro Water Meter</a>
+                            <a class="dropdown-item" href="#">24X7 Water Connection</a>
+                            <a class="dropdown-item" href="#">E-Challan Payment</a>
+                            <a class="dropdown-item" href="#">Surat Money Card</a>
+                            <a class="dropdown-item" href="#">Fire Volunteer Registration</a>
+                            <a class="dropdown-item" href="#">Society Civic Facility</a>
+                            <a class="dropdown-item" href="#">Online Forms</a>
+                            <a class="dropdown-item" href="#">Feedback</a>
+                            <a class="dropdown-item" href="#">Services through SMS</a>
+                            <a class="dropdown-item" href="#">Contractor Ledger Information</a>
+                            <a class="dropdown-item" href="#">Tax Invoice</a>
+                            <a class="dropdown-item" href="#">Pensioner Documents</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="serachbox mx-2">
+                <input type="search" id="form1" class="serachText" placeholder="serach in website..."
+                    aria-label="Search" />
+                <a href="#" class="searchBtn d-flex justify-content-center align-items-center">
+                    <span class="fas fa-search"></span>
+                </a>
+
+            </div>
+            <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-city-tab" data-toggle="pill" href="#pills-city" role="tab"
+                        aria-controls="pills-home" aria-selected="true">the city<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-corporation-tab" data-toggle="pill" href="#pills-corporation"
+                        role="tab" aria-controls="pills-contact" aria-selected="false">Corporation<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-department-tab" data-toggle="pill" href="#pills-department" role="tab"
+                        aria-controls="pills--department" aria-selected="false">department<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-zones-tab" data-toggle="pill" href="#pills-zones" role="tab"
+                        aria-controls="pills-zones" aria-selected="false">zones<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-services-tab" data-toggle="pill" href="#pills-services" role="tab"
+                        aria-controls="pills-services" aria-selected="false">services<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-information-tab" data-toggle="pill" href="#pills-information"
+                        role="tab" aria-controls="pills-information" aria-selected="false">information<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-downloads-tab" data-toggle="pill" href="#pills-downloads" role="tab"
+                        aria-controls="pills-downloads" aria-selected="false">downloads<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-faqs-tab" data-toggle="pill" href="#pills-faqs" role="tab"
+                        aria-controls="pills-faqs" aria-selected="false">faqs<span
+                            class="fas fa-chevron-right icon-rotates ml-2"></span></a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-city" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-5  d-flex justify-content-between ">
+                            <ul>
+                                <span class="invisible">city</span>
+                                <li class="bull"> <a href="#" class="nav-link">Introduction</a> </li>
+                                <li><a href="#" class="nav-link">History</a></li>
+                                <li><a href="#" class="nav-link">Contribution</a></li>
+                                <li><a href="#" class="nav-link">Authorities</a></li>
+                                <li><a href="#" class="nav-link">Demographics</a></li>
+                                <li><a href="#" class="nav-link">Linkages</a></li>
+                                <li><a href="#" class="nav-link">Weather</a></li>
+                            </ul>
+                            <ul>
+                                <span>Heritage</span>
+                                <li><a href="#" class="nav-link">Surat Castle</a></li>
+                                <li><a href="#" class="nav-link">Mughal Sarai</a></li>
+                                <li><a href="#" class="nav-link">Cemeteries</a></li>
+                                <li><a href="#" class="nav-link">Others</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-corporation" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-8  d-flex justify-content-between ">
+                            <ul>
+                                <span class="invisible">corporation</span>
+                                <li> <a href="#" class="nav-link">Introduction</a> </li>
+                                <li><a href="#" class="nav-link">Awards</a></li>
+                                <li><a href="#" class="nav-link">List of Holidays</a></li>
+                            </ul>
+                            <ul>
+                                <span>Elected Wings</span>
+                                <li> <a href="#" class="nav-link">Introduction</a> </li>
+                                <li><a href="#" class="nav-link">Office Bearers</a></li>
+                                <li><a href="#" class="nav-link">Incumbency Chart</a></li>
+                                <li><a href="#" class="nav-link">Corporators</a></li>
+                                <li><a href="#" class="nav-link">Committees</a></li>
+                            </ul>
+                            <ul>
+                                <span>Administrative Wing</span>
+                                <li> <a href="#" class="nav-link">Commissioner</a> </li>
+                                <li><a href="#" class="nav-link">Incumbency Chart</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-department" role="tabpanel" aria-labelledby="pills-department-tab">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-3">
+                            <ul>
+                                <span>Engineering</span>
+                                <li><a class="nav-link" href="#">Bridge Cell</a></li>
+                                <li> <a class="nav-link" href="#">Street Light</a></li>
+                                <li> <a class="nav-link" href="#">Special Projects</a></li>
+                                <li><a class="nav-link" href="#">Traffic Cell</a></li>
+                                <li><a class="nav-link" href="#">BRTS Cell</a></li>
+                                <li><a class="nav-link" href="#">CE Special Cell</a></li>
+                                <li> <a class="nav-link" href="#">Energy Efficiency Cell</a></li>
+                                <li><a class="nav-link" href="#">Environment Cell</a></li>
+                                <li> <a class="nav-link" href="#">Town Planning</a></li>
+                                <li> <a class="nav-link" href="#">Town Development</a></li>
+                                <li><a class="nav-link" href="#">Hydraulic</a></li>
+                                <li><a class="nav-link" href="#">Drainage</a></li>
+                                <li><a class="nav-link" href="#">Road Development</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <ul>
+                                <span>Health</span>
+                                <li><a class="nav-link" href="#">Solid Waste Management</a></li>
+                                <li><a class="nav-link" href="#">Health Department</a></li>
+                                <li> <a class="nav-link" href="#">Vector
+                                        Borne Diseases Control</a></li>
+                                <li><a class="nav-link" href="#">Birth and Death</a></li>
+                                <li><a class="nav-link" href="#">Maskati Hospital</a></li>
+                                <li> <a class="nav-link" href="#">SMIMER Hospital</a></li>
+                            </ul>
+                            <ul class="mt-3">
+                                <span>Support</span>
+                                <li><a class="nav-link" href="#">Accounts</a></li>
+                                <li><a class="nav-link" href="#">Information Technology</a></li>
+                                <li> <a class="nav-link" href="#">Election and Census</a></li>
+                                <li><a class="nav-link" href="#">Stores</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <ul>
+                                <span>Revenue</span>
+                                <li><a class="nav-link" href="#">Property Tax</a></li>
+                                <li><a class="nav-link" href="#">Professional Tax</a></li>
+                                <li> <a class="nav-link" href="#">Octroi</a></li>
+                                <li><a class="nav-link" href="#">Other Tax</a></li>
+                            </ul>
+                            <ul class="mt-3">
+                                <span>Social Welfare</span>
+                                <li><a class="nav-link" href="#">Slum Upgradation</a></li>
+                                <li><a class="nav-link" href="#">Urban Community Development</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <ul>
+                                <span>Secretary</span>
+                                <li><a class="nav-link" href="#">Secretary</a></li>
+                            </ul>
+                            <ul class="mt-3">
+                                <span>Fire and Emergency Services</span>
+                                <li><a class="nav-link" href="#">Fire & Emergency Services</a></li>
+                            </ul>
+                            <ul class="mt-3">
+                                <span>Culture</span>
+                                <li><a class="nav-link" href="#">Culture</a></li>
+                            </ul>
+                            <ul class="mt-3">
+                                <span>Watch & Ward</span>
+                                <li><a class="nav-link" href="#">Watch & Ward</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-zones" role="tabpanel" aria-labelledby="pills-zones-tab">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-3">
+                            <ul>
+                                <li><a href="#" class="nav-link">Organization Structure</a></li>
+                                <li><a href="#" class="nav-link">Functions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <ul>
+                                <span>List of zones</span>
+                                <li><a href="#" class="nav-link">West Zone</a></li>
+                                <li><a href="#" class="nav-link">Central Zone</a></li>
+                                <li><a href="#" class="nav-link">North Zone</a></li>
+                                <li><a href="#" class="nav-link">East Zone A</a></li>
+                                <li><a href="#" class="nav-link">East Zone B</a></li>
+                                <li><a href="#" class="nav-link">South Zone B</a></li>
+                                <li><a href="#" class="nav-link">South West Zone</a></li>
+                                <li><a href="#" class="nav-link">South East Zone</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-services" role="tabpanel" aria-labelledby="pills-services-tab">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>Education</span>
+                                <li><a href="#" class="nav-link">Primary</a></li>
+                                <li><a href="#" class="nav-link">Secondary</a></li>
+                                <li><a href="#" class="nav-link">Medical College - SMIMER</a></li>
+                                <li><a href="#" class="nav-link">Library</a></li>
+                            </ul>
+                            <ul>
+                                <span>Science Centre </span>
+                                <li><a href="#" class="nav-link">Science Centre Home</a></li>
+                            </ul>
+                            <ul>
+                                <span>Engineering</span>
+                                <li><a href="#" class="nav-link">Water Supply</a></li>
+                                <li><a href="#" class="nav-link">Drainage</a></li>
+                                <li><a href="#" class="nav-link">Traffic</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>Amusement / Sports Facilities</span>
+                                <li><a href="#" class="nav-link">Gardens</a></li>
+                                <li><a href="#" class="nav-link">Aquarium</a></li>
+                                <li><a href="#" class="nav-link">Swimming Pools</a></li>
+                                <li><a href="#" class="nav-link">Nature Park</a></li>
+                                <li><a href="#" class="nav-link">Surat Fort</a></li>
+                            </ul>
+                            <ul>
+                                <span>Auditoria and Stadium</span>
+                                <li><a href="#" class="nav-link">Indoor Stadium</a></li>
+                                <li><a href="#" class="nav-link">Gandhi Smriti</a></li>
+                                <li><a href="#" class="nav-link">Sardar Smriti</a></li>
+                                <li><a href="#" class="nav-link">Rang Upvan</a></li>
+                                <li><a href="#" class="nav-link">Sanjeevkumar</a></li>
+                                <li><a href="#" class="nav-link">Swami Vivekanand</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>Education</span>
+                                <li><a href="#" class="nav-link">Primary</a></li>
+                                <li><a href="#" class="nav-link">Secondary</a></li>
+                                <li><a href="#" class="nav-link">Medical College - SMIMER</a></li>
+                                <li><a href="#" class="nav-link">Library</a></li>
+                            </ul>
+                            <ul>
+                                <span>Performing Art Centre</span>
+                                <li><a href="#" class="nav-link">Performing Art Centre</a></li>
+                            </ul>
+                            <ul>
+                                <span>City Civic Center</span>
+                                <li><a href="#" class="nav-link">Introduction</a></li>
+                                <li><a href="#" class="nav-link">List of Centers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>Development</span>
+                                <li><a href="#" class="nav-link">Town Development</a></li>
+                            </ul>
+                            <ul>
+                                <span>Tax Collection</span>
+                                <li><a href="#" class="nav-link">PropertyTaxe</a></li>
+                                <li><a href="#" class="nav-link">Octroi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-information" role="tabpanel"
+                    aria-labelledby="pills-information-tab">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span class="invisible">information</span>
+                                <li><a href="#" class="nav-link">Recruitment</a></li>
+                                <li><a href="#" class="nav-link">Press Releases</a></li>
+                                <li><a href="#" class="nav-link">News and Updates</a></li>
+                                <li><a href="#" class="nav-link">Agenda</a></li>
+                                <li><a href="#" class="nav-link">Resolution</a></li>
+                                <li><a href="#" class="nav-link">Employee Details</a></li>
+                                <li><a href="#" class="nav-link">Disease Statistics</a></li>
+                                <li><a href="#" class="nav-link">Citizen Facilities</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>Tenders / Quotations</span>
+                                <li><a href="#" class="nav-link">Active Tenders</a></li>
+                                <li><a href="#" class="nav-link">Active Quotations</a></li>
+                                <li><a href="#" class="nav-link">e Tenders</a></li>
+                            </ul>
+                            <ul>
+                                <span>Corporators</span>
+                                <li><a href="#" class="nav-link">Corporators</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>RCPS</span>
+                                <li><a href="#" class="nav-link">Gujarat (RCPS) Act 2013</a></li>
+                            </ul>
+                            <ul>
+                                <span>RTI</span>
+                                <li><a href="#" class="nav-link">Check RTI Application Status</a></li>
+                                <li><a href="#" class="nav-link">RTI Act and Rules</a></li>
+                                <li><a href="#" class="nav-link">Proactive Disclosures</a></li>
+                                <li><a href="#" class="nav-link">PIOs and APIOs</a></li>
+                                <li><a href="#" class="nav-link">Reports and Circulars</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-faqs" role="tabpanel" aria-labelledby="pills-faqs-tab">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>RTI</span>
+                                <li><a href="#" class="nav-link">Recovery Statistics</a></li>
+                                <li><a href="#" class="nav-link">Central Medical Store</a></li>
+                                <li><a href="#" class="nav-link">Science Centre</a></li>
+                                <li><a href="#" class="nav-link">Fire and Emergency Services</a></li>
+                                <li><a href="#" class="nav-link">Hydraulic</a></li>
+                                <li><a href="#" class="nav-link">Profession Tax Recovery Cell</a></li>
+                                <li><a href="#" class="nav-link">Best View</a></li>
+                                <li><a href="#" class="nav-link">How Do I ?</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <ul>
+                                <span>PTAX</span>
+                                <li><a href="#" class="nav-link">Recovery Statistics</a></li>
+                                <li><a href="#" class="nav-link">Tax Structure</a></li>
+                                <li><a href="#" class="nav-link">Tax Calculator</a></li>
+                                <li><a href="#" class="nav-link">Assessment Guideline</a></li>
+                                <li><a href="#" class="nav-link">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);">
+                <img src="images/logo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="fullscreenMenu  mobile d-xl-none d-lg-none ">
+        <div class="container p-0">
+            <div class="topbar p-3">
+                <div class="logo"><img src="images/logo.png" alt="logo"></div>
+                <div class="close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="online-grp d-flex justify-content-end flex-wrap mb-4  mr-4">
+                <div class="dropdown mb-2">
+                    <button class="online px-3 py-2 app" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        mobile app<i class="fas fa-plus arrow-plus ml-3"></i>
+                    </button>
+                    <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Citizen’s Connect – SMC App</a>
+                        <a class="dropdown-item" href="#">SAFAL</a>
+                        <a class="dropdown-item" href="#">Heritage Walk</a>
+                        <a class="dropdown-item" href="#">Surat Sitilink</a>
+                        <a class="dropdown-item" href="#">Surat Smart City</a>
+                    </div>
+                </div>
+                <div class="dropdown mb-2 ml-3 mr-2 services">
+                    <button class=" btn px-3 py-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        online services<i class="fas fa-plus arrow-plus ml-3"></i>
+                    </button>
+                    <div class="dropdown-menu servicesBtn  px-3 py-4" aria-labelledby="dropdownMenuButton">
+                        <span class="mb-2">Property tax</span>
+                        <a class="dropdown-item" href="#">Property tax</a>
+                        <a class="dropdown-item" href="#">Professional tax rc</a>
+                        <a class="dropdown-item" href="#">professional tax ec</a>
+                        <span>Get Certificate</span>
+                        <a class="dropdown-item" href="#">Shops & Est. Certi. Registation</a>
+                        <a class="dropdown-item" href="#">Birth Certificate</a>
+                        <a class="dropdown-item" href="#">Death Certificate</a>
+                        <span>Booking</span>
+                        <a class="dropdown-item" href="#">Hall/Auditorium booking</a>
+                        <a class="dropdown-item" href="#">Community hall/party plot booking</a>
+                        <a class="dropdown-item" href="#">indoor stadium booking</a>
+                        <a class="dropdown-item" href="#">ticket booking</a>
+                        <span>Membership</span>
+                        <a class="dropdown-item" href="#">E-libary</a>
+                        <a class="dropdown-item" href="#">swimming</a>
+                        <span>other services</span>
+                        <a class="dropdown-item" href="#">Complaint</a>
+                        <a class="dropdown-item" href="#">Water meter</a>
+                        <a class="dropdown-item" href="#">Hydro Water Meter</a>
+                        <a class="dropdown-item" href="#">24X7 Water Connection</a>
+                        <a class="dropdown-item" href="#">E-Challan Payment</a>
+                        <a class="dropdown-item" href="#">Surat Money Card</a>
+                        <a class="dropdown-item" href="#">Fire Volunteer Registration</a>
+                        <a class="dropdown-item" href="#">Society Civic Facility</a>
+                        <a class="dropdown-item" href="#">Online Forms</a>
+                        <a class="dropdown-item" href="#">Feedback</a>
+                        <a class="dropdown-item" href="#">Services through SMS</a>
+                        <a class="dropdown-item" href="#">Contractor Ledger Information</a>
+                        <a class="dropdown-item" href="#">Tax Invoice</a>
+                        <a class="dropdown-item" href="#">Pensioner Documents</a>
+                    </div>
+                </div>
+            </div>
+            <div class="serachbox mx-2 mb-5">
+                <input type="search" id="form1" class="form-control" placeholder="serach..." aria-label="Search" />
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="dropMenu">
+                <ul>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                The city
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Introduction</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">history</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Contribution</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">authorities</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">demographics</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">linkages</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">weather</a>
+                            </li>
+                            <span class="pl-3">Heritage</span>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">surat castle</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">mughal sarai</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">cemeteries</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">others</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                corporation
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Introduction</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Awards</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">listof holidays</a>
+                            </li>
+                            <span class="pl-3">Elected wings</span>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Introduction</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">office bearers</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">incumbency chart</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">corporators</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">committees</a>
+                            </li>
+                            <span class="pl-3">Administrative wings</span>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">commissioner</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">incumbency chart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                departments
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <span class="pl-3">Engineering</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Bridge Cell</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Street Light</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Special Projects</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Traffic Cell</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">BRTS Cell</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">CE Special Cell</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Energy Efficiency Cell</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Environment Cell</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Town Planning</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Town Development</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Hydraulic</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Drainage</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Road Development</a></li>
+                            <span class="pl-3">Health</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Solid Waste Management</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Health Department</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Vector
+                                    Borne Diseases Control</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Birth and Death</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Maskati Hospital</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">SMIMER Hospital</a></li>
+                            <span class="pl-3">Support</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Accounts</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Information Technology</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Election and Census</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Stores</a></li>
+                            <span class="pl-3">Social Welfare</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Slum Upgradation</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Urban Community Development</a></li>
+                            <span class="pl-3">Revenue</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Property Tax</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Professional Tax</a></li>
+                            <li class="dropdown-item"> <a class="nav-link" href="#">Octroi</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Other Tax</a></li>
+
+                            <span class="pl-3">Secretary</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Secretary</a></li>
+
+
+                            <span class="pl-3">Fire and Emergency Services</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Fire & Emergency Services</a></li>
+
+
+                            <span class="pl-3">Culture</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Culture</a></li>
+
+                            <span class="pl-3">Watch & Ward</span>
+                            <li class="dropdown-item"><a class="nav-link" href="#">Watch & Ward</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                zones
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Action</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Another action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                services
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Action</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Another action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                information
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Action</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Another action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                downloads
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Action</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Another action</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div data-toggle="dropdown" class="d-flex justify-content-between align-items-center pr-3">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false">
+                                faqs
+                            </a>
+                            <span class="fa fa-angle-down icon-rotates"></span>
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Action</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link" href="#">Another action</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header id="header">
+        <div class="d-flex justify-content-between align-items-center navigation">
+            <a href="#" class="logo pl-3"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
+            <div class="d-flex align-items-center text-uppercase ml-auto">
+                <nav class="">
+                    <ul class="d-flex align-items-center  m-0 flex-wrap">
+                        <li class="accessbility d-xl-block  d-none"><a href="#" class="nav-link">skip to main
+                                content</a></li>
+                        <li class="accessbility d-xl-block  d-none"><a href="#" class="nav-link">screen reader
+                                access</a></li>
+                        <li class="mr-5 d-xl-block  d-none">
+                            <div class="d-lg-flex  d-none font-sizing accessbility">
+                                <a href="#" class="nav-link px-1">A+</a>
+                                <a href="#" class=" nav-link px-1">A</a>
+                                <a href="#" class="nav-link px-1">A-</a>
+                            </div>
+                        </li>
+                        <li class="d-xl-inline-block d-lg-inline-block d-none ">
+                            <div class="dropdown">
+                                <a class="online px-3 py-2 btn" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    contact us<i class="fas fa-plus arrow-plus ml-1"></i>
+                                </a>
+                                <div class="dropdown-menu app" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">SMC Officials</a>
+                                    <a class="dropdown-item" href="#">Zone Officials</a>
+                                    <a class="dropdown-item" href="#">Website Owner</a>
+                                    <a class="dropdown-item" href="#">Toll Free Numbers</a>
+                                    <a class="dropdown-item" href="#">Emergency/Imp. Nos.</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-xl-inline-block d-lg-inline-block d-none mx-1">
+                            <div class="dropdown">
+                                <a class="online px-3 py-2 btn" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    mobile app<i class="fas fa-plus arrow-plus ml-1"></i>
+                                </a>
+                                <div class="dropdown-menu app" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Citizen’s Connect – SMC App</a>
+                                    <a class="dropdown-item" href="#">SAFAL</a>
+                                    <a class="dropdown-item" href="#">Heritage Walk</a>
+                                    <a class="dropdown-item" href="#">Surat Sitilink</a>
+                                    <a class="dropdown-item" href="#">Surat Smart City</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-xl-inline-block d-lg-inline-block d-none">
+                            <div class="dropdown mb-2  services">
+                                <a class="btn  px-3 py-2" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    online services<i class="fas fa-plus arrow-plus ml-1"></i>
+                                </a>
+                                <div class="dropdown-menu servicesBtn px-3 py-4" aria-labelledby="dropdownMenuButton">
+                                    <span class="mb-2">Property tax</span>
+                                    <a class="dropdown-item" href="#">Property tax</a>
+                                    <a class="dropdown-item" href="#">Professional tax rc</a>
+                                    <a class="dropdown-item" href="#">professional tax ec</a>
+                                    <span>Get Certificate</span>
+                                    <a class="dropdown-item" href="#">Shops & Est. Certi. Registation</a>
+                                    <a class="dropdown-item" href="#">Birth Certificate</a>
+                                    <a class="dropdown-item" href="#">Death Certificate</a>
+                                    <span>Booking</span>
+                                    <a class="dropdown-item" href="#">Hall/Auditorium booking</a>
+                                    <a class="dropdown-item" href="#">Community hall/party plot booking</a>
+                                    <a class="dropdown-item" href="#">indoor stadium booking</a>
+                                    <a class="dropdown-item" href="#">ticket booking</a>
+                                    <span>Membership</span>
+                                    <a class="dropdown-item" href="#">E-libary</a>
+                                    <a class="dropdown-item" href="#">swimming</a>
+                                    <span>other services</span>
+                                    <a class="dropdown-item" href="#">Complaint</a>
+                                    <a class="dropdown-item" href="#">Water meter</a>
+                                    <a class="dropdown-item" href="#">Hydro Water Meter</a>
+                                    <a class="dropdown-item" href="#">24X7 Water Connection</a>
+                                    <a class="dropdown-item" href="#">E-Challan Payment</a>
+                                    <a class="dropdown-item" href="#">Surat Money Card</a>
+                                    <a class="dropdown-item" href="#">Fire Volunteer Registration</a>
+                                    <a class="dropdown-item" href="#">Society Civic Facility</a>
+                                    <a class="dropdown-item" href="#">Online Forms</a>
+                                    <a class="dropdown-item" href="#">Feedback</a>
+                                    <a class="dropdown-item" href="#">Services through SMS</a>
+                                    <a class="dropdown-item" href="#">Contractor Ledger Information</a>
+                                    <a class="dropdown-item" href="#">Tax Invoice</a>
+                                    <a class="dropdown-item" href="#">Pensioner Documents</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-inline-block  mx-3">
+                            <a href="#" class="search" id="searchToggle" data-toggle="collapse" href="#search"
+                                role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <div data-toggle="collapse" data-target="#search" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    <i class="fas fa-search cross"></i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-container d-flex flex-column justify-content-center align-items-center" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="container-fluid grid-lines">
+            <div class="row">
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+            </div>
+        </div>
+    </header>
+    <section class="searchWeb">
+        <div class="collapse" id="search" class="search">
+            <input class="form-control form-control-lg" type="text" placeholder="Search...">
+        </div>
+    </section>
+    <!-- breadcrumbs -->
+    <section class="breadcrumbs py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-8 px-lg-0">
+                    <div class="navHeader d-flex justify-content-between align-items-center flex-wrap text-uppercase">
+                        <div class="leftside">
+                            <span>about surat</span>
+                            <h1>introduction</h1>
+                        </div>
+                        <div class="rightside align-self-center">
+                            <ul class="list-style d-flex">
+                                <li class="mr-2"><a href="#"><i class="fa fa-home"></i></a><i
+                                        class="fa fa-chevron-left ml-2"></i></li>
+                                <li><span> the city</span> <i class="fa fa-chevron-left mx-2"></i>about surat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid grid-lines">
+            <div class="row">
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+            </div>
+        </div>
+    </section>
+    <!--end breadcrumbs -->
+    <!-- main content -->
+    <div class="main-content">
+        <!-- <section class="about">
+            <div class="container-fluid">
+                <div class="row">
+                   
+                        <div class="offset-lg-2 col-lg-10 px-lg-0">
+                            <div class="row">
+                                <img src="images/suratabout.jpg-org" class="img-fluid col-lg-4 px-0" alt="">
+                                <div class="discription px-0 col-lg-6">
+                                    <p class="ml-5"> 
+                                        Surat is a city located on the western part of India in the state of Gujarat. It is one
+                                        of the most dynamic city of India with one of the fastest growth rate due to immigration
+                                        from various part of Gujarat and other states of India.
+        
+                                        Surat is one of the cleanest city of India and is also known by several other names like
+                                        "THE SILK CITY", "THE DIAMOND CITY", "THE GREEN CITY", etc. It has the most vibrant
+                                        present and an equally varied heritage of the past. It is the city where the British
+                                        first land in India. The Dutch and the Portuguese also established there business
+                                        centers in Surat, the remnants of which are still preserved in the modern day Surat. In
+                                        past this was a glorious port with ships of more than 84 countries anchored in its
+                                        harbour at any time.
+        
+                                        Still today, Surat continues the same tradition as people from all around the country
+                                        flock in for business and jobs. Surat has practically zero percent unemployment rate and
+                                        jobs are easier to get here due to very fast development of various industries in and
+                                        around Surat City.
+                                    </p>
+                            </div>
+                            </div>
+                          
+                           
+                    </div>
+                  
+                </div>
+            </div>
+        </section> -->
+
+        <!-- city -->
+        <section class="city py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8 px-lg-0">
+                        <div class="heading text-uppercase">
+                            <h3>know your city better</h3>
+                        </div>
+                      <div class="cityContent">
+                          <div class="row">
+                            <div class="leftside col-lg-6  d-flex flex-wrap  align-items-center p-3">
+                                <div class="box mx-3 ml-4  mb-3">
+                                    <div class="ml-3">
+                                        <img src="images/history.png" class="img-fluid d-block" alt="">
+                                        <span>History</span>
+                                    </div>
+                                    <span class="overlay">
+                                        <img src="images/history.png" class="img-fluid" alt="">
+                                    </span>
+                                </div>
+                                <div class="box ml-3  mb-3">
+                                    <img src="images/history.png" class="img-fluid d-block" alt="">
+                                    <span>History</span>
+                                </div>
+                                <div class="box mx-3  mb-3">
+                                    <img src="images/history.png" class="img-fluid d-block" alt="">
+                                    <span>History</span>
+                                </div>
+                                <div class="box mx-3  mb-3">
+                                    <img src="images/history.png" class="img-fluid d-block" alt="">
+                                    <span>History</span>
+                                </div>
+                            </div>
+                            <div class="rightside col-lg-6 px-0">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo qui sunt inventore neque, similique autem. Ipsum eaque totam corporis quo.</p>
+                            </div>
+                          </div>
+                          
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end city -->
+        <!-- partten -->
+        <div class="partten d-lg-block d-sm-block d-none" style="position: relative;">
+            <img src="images/pattern.svg" class="img-fluid py-5" alt="pattern">
+            <img src="images/pattern1.svg" class="img-fluid" alt=""
+                style="position: absolute;right: 0; left: 0;bottom: 50px;">
+        </div>
+        <!-- end partten -->
+        <!-- grid lines -->
+        <div class="container-fluid grid-lines">
+            <div class="row">
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+            </div>
+        </div>
+        <!-- end grid-lines -->
+    </div>
+    <!-- end main-content -->
+    <!-- footer section -->
+    <footer class="pt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3  col-sm-3 col-6 d-flex justify-content-center mb-3">
+                            <a href="#">
+                                <img src="images/indiaportal.png" class="img-fluid" alt="indiaportal">
+                            </a>
+                        </div>
+                        <div class="col-lg-3   col-sm-3 col-6 d-flex justify-content-center mb-3">
+                            <a href="#">
+                                <img src="images/gujaratportal.png" class="img-fluid" alt="gujaratportal">
+                            </a>
+                        </div>
+                        <div class="col-lg-3  col-sm-3 col-6 d-flex justify-content-center mb-3">
+                            <a href="#">
+                                <img src="images/smartcity.png" class="img-fluid" alt="smartcity">
+                            </a>
+                        </div>
+                        <div class="col-lg-3  col-sm-3 col-6 d-flex justify-content-center mb-3">
+                            <a href="#">
+                                <img src="images/suratgov.png" class="img-fluid" alt="suratgov">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="offset-lg-2 col-lg-8 ">
+                    <div class="row">
+                        <ul class="col-lg-3 col-sm-6 col-12 p-lg-0 text-capitalize">
+                            <li class="text-uppercase">
+                                <p>about website</p>
+                            </li>
+                            <li><a href="#">About Website</a></li>
+                            <li><a href="#">Copyright Statement</a></li>
+                            <li><a href="#">Hyperlink Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Best View Settings</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Accessibility Statement</a></li>
+                        </ul>
+                        <ul class="link col-lg-3 col-sm-6 col-12 p-lg-0 text-capitalize">
+                            <li class="text-uppercase">
+                                <p>QUICK LINKS</p>
+                            </li>
+                            <li><a href="#">Online Services</a></li>
+                            <li><a href="#">Recruitment</a></li>
+                            <li><a href="#">Tenders</a></li>
+                            <li><a href="#">Townplaning</a></li>
+                            <li><a href="#">Budget</a></li>
+                            <li><a href="#">Elected Wing</a></li>
+                            <li><a href="#">Employee Details</a></li>
+                        </ul>
+                        <ul class="link col-lg-3 col-sm-6 col-12 p-lg-0 text-capitalize">
+                            <li class="text-uppercase">
+                                <p>REACH US</p>
+                            </li>
+                            <li><a href="#">Toll free number</a></li>
+                            <li><a href="#">Emergency No.</a></li>
+                            <li><a href="#">smc officals</a></li>
+                            <li><a href="#">zones officals</a></li>
+                            <li><a href="#">Complaint</a></li>
+                            <li><a href="#">feedback</a></li>
+                            <li><a href="#">official social media accounts</a></li>
+                        </ul>
+                        <ul class="link col-lg-3 col-sm-6 col-12 p-lg-0 text-capitalize">
+                            <li class="text-uppercase">
+                                <p>NAVIGATE SITE</p>
+                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Search</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="bottom-footer d-flex justify-content-center flex-wrap">
+                    <div
+                        class="visitor px-5 py-2 mb-3 mr-lg-5 mr-sm-5 mr-0 d-flex justify-content-center flex-column align-items-center">
+                        <div class="text-uppercase">visitor count</div>
+                        <div class="count">123456789</div>
+                    </div>
+                    <div class="social-icons d-flex mb-3">
+                        <div class="icon mr-3 d-flex justify-content-center align-items-center">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="icon mr-3 d-flex justify-content-center align-items-center">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="icon mr-3 d-flex justify-content-center align-items-center">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright pt-5  d-flex justify-content-center">
+            <div class="py-3 px-lg-5 px-md-5 px-3 d-flex justify-content-center">
+                <p class="m-0">This is an official website of Surat Municipal Corporation. | Copyright 2021@SMC, All
+                    rights reserved.</p>
+            </div>
+        </div>
+        <!-- grid lines -->
+        <div class="container-fluid grid-lines">
+            <div class="row">
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+                <div class="col p-0"></div>
+            </div>
+        </div>
+        <!-- end grid-lines -->
+    </footer>
+    <!-- end footer section -->
+    <script src="custom_js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="custom_js/navigation.js"></script> -->
+    <script src="owlcarsouel/js/owl.carousel.min.js"></script>
+    <script src="custom_js/script.js"></script>
+</body>
+
+</html>
+
+
+
+.breadcrumbs{
+    background-color:#492981;
+    color: $white;
+    .leftside{
+        max-width:300px;
+        overflow-wrap: break-word; 
+        span{
+            font-size: 0.8rem;
+            opacity: 0.7;
+            letter-spacing: 2px;
+        }
+        h1{
+            font-size:1.8rem;
+           white-space: normal;
+            font-weight: map-get($map: $font-weights, $key:'bold' );
+            @media only screen and (min-width:575px){
+                font-size:2rem;
+                
+            }
+        }
+    }
+    .rightside{
+        font-size: 0.8rem;
+        i{
+            color: $lightBlack;
+        }
+        span{
+            color: $lightBlack;
+        }
+    }
+    .grid-lines{
+        .row{
+            height: 100%;
+            .col{
+                &:nth-child(odd){
+                    border-right:1px solid $black;
+                    opacity: 0.1;
+                    @media only screen and (min-width: 992px){
+                        border-right: none;
+                    }
+                }
+                &:nth-child(2n){
+                    border-right: none;
+                    @media only screen and (min-width: 992px){
+                        border-right:1px solid $black;
+                        opacity: 0.1;
+                    }
+                }
+            }
+        }
+        @media only screen and (max-width: 575px){
+            .row{
+                .col{
+                    &:nth-child(n){
+                        border-right:none;
+                    }
+                    &:nth-child(11n+1){
+                        border-right:1px solid $black;
+                    }
+                    &:nth-child(12n-1){
+                        border-right:1px solid $black;
+                    }
+                }
+            }
+        }
+    }
+}
+.about{
+    img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.city{
+    .heading{
+        h3{
+            font-size: 1.2rem;
+            color: $priymary-color;
+            font-weight: map-get($map: $font-weights, $key:'bold' );
+            letter-spacing: 5px;
+        }
+    }
+    .cityContent{
+        background-color: $priymary-color;
+        .box{
+            background-color:#E9E9E9;
+            //display: inline-block;
+            position: relative;
+            overflow: hidden;
+            padding: 25px 10px;
+            width:150px;
+            border-radius: 10px;
+            img{
+                width: 65px;
+                height: 65px;
+            }
+            .overlay{
+                position: absolute;
+                top: 0;
+                //left: 0;
+                height: 100%;
+                bottom: 0;
+                right:-20%;
+                opacity: 0.3;
+                display: flex;
+                align-items: center;
+                img{
+                    height: 120px;
+                    width: 120px;
+                }
+            }
+            //width: calc(100% - 50px);
+        }
+    }
+}
